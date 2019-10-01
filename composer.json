@@ -24,7 +24,7 @@
             ]
         },
         "aliases": {
-          "Securepay": "Dipesh\\SecurePay\\SecurePayFacade"
+          "Securepay": "Dipesh\\SecurePay\\Facades\\SecurePay"
         }
     }
 }
