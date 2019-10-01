@@ -1,0 +1,29 @@
+{
+    "name": "dipesh/securepay",
+    "description": "secure pay wrapper for laravel",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "dipesh pokhrel",
+            "email": "dipesh.pokhrel@ebpearls.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dipesh\\SecurePay\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dipesh\\SecurePay\\SecurePayServiceProvider"
+            ]
+        },
+        "aliases": {
+          "Securepay": "Dipesh\\SecurePay\\SecurePayFacade"
+        }
+    }
+}
