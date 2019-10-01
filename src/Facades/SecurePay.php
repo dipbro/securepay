@@ -1,9 +1,9 @@
 <?php
-namespace Dipesh\SecurePay;
+namespace Dipesh\SecurePay\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class SecurePayFacade extends Facade
+class SecurePay extends Facade
 {
     /**
      * {@inheritDoc}
